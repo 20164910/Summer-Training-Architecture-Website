@@ -544,7 +544,7 @@ Banner CSS Ends
     background:url('images/help/courses.jpg');
 }
 .faculty-info {
-	background-color:rgba(23, 72, 115,0.95);
+	background-color:rgba(23, 72, 177,0.95);
 }
 .faculty-info::after {
     background:url('images/help/faculty.jpg');
@@ -806,7 +806,7 @@ Our Teachers CSS Ends
 	position:relative;
 	padding-top:80px;
 	padding-bottom:80px;
-	background-color:rgba(47, 47, 47, 0.9);
+	background-color:rgba(10, 104, 150, 0.95);
 }
 .seminar-events::after  {
 	content:"";
@@ -905,6 +905,10 @@ Gallery CSS Ends
 	bottom:0px;
 	left:0px;
 }
+
+.process{
+	background-color: rgba(10, 104, 150, 0.95);
+}
 .our-process h2 {
 	color:#FFF;
 	font-size:2.5rem;
@@ -954,6 +958,7 @@ Our Process Ends
 	background-color:#f7f7f7;
 	border-radius:5px;
 	border:1px solid #ededed;
+	left:4000px;
 }
 .testimonial .testimonial-thumb {
 	float:left;
