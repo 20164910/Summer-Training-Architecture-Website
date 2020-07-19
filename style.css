@@ -735,9 +735,13 @@ Our Courses CSS Ends
 	background-color:#174873;
 	border-radius:100%;
 	border:2px solid #e79800;
+/*Newly Added */	
+	width: 150px;
+	height: 150px;
 }
 .teacher:hover>.teacher-thumb img { 
-	opacity:.3;
+/*Newly Added*/
+	/*opacity:.3;*/
 }
 .teacher:hover>.teacher-thumb .teacher-links {
 	opacity:1; 
@@ -785,7 +789,9 @@ Our Courses CSS Ends
 	border-color:transparent;	 
 }
 .teacher-meta {
-	text-align:center; 
+	text-align:center;
+/*Newly Added*/	
+	width: 150px;
 }
 .teacher-meta h3 a {
 	font-weight:normal; 
@@ -974,6 +980,7 @@ Our Process Ends
 .testimonial cite {
 	color:#2f2f2f; 
 }
+
 /*-------------------------
 Testimonials Ends
 -------------------------*/
@@ -1032,7 +1039,9 @@ Blog Posts Ends
  16 - Brands Carousel
 -------------------------*/
 .brands-wrap {
-	margin-bottom:80px; 
+	padding-top: 80px;
+	padding-bottom: 80px;
+    background-color: #f7f7f7;	
 } 
 .bran-logo {
 	padding:5px; 
@@ -1077,6 +1086,15 @@ Blog Posts Ends
 .side-controls .owl-nav {
 	margin-top:0px; 
 }
+
+/*Added Brands*/
+#certLogo{
+	width: 500px;
+	height: 250px;
+}
+
+
+
 /*-------------------------
 Brands Carousel Ends
 -------------------------*/
