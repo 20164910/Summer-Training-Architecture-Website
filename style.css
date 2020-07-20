@@ -723,12 +723,18 @@ Our Courses CSS Ends
 -------------------------*/
 .teacher {
 	position:relative; 
+	/*Newly Added */	
+	justify-content: center;
+	
 }
 .teacher .teacher-thumb img {
 	width:100%;
 	height:auto;
 	border-radius:100%;
 	z-index:2;
+	/*Newly Added */	
+	width: 150px;
+	height: 150px;
 }
 .teacher .teacher-thumb {
 	position:relative;
@@ -1087,7 +1093,7 @@ Blog Posts Ends
 	margin-top:0px; 
 }
 
-/*Added Brands*/
+/*Newly Added*/
 #certLogo{
 	width: 500px;
 	height: 250px;
@@ -1961,7 +1967,7 @@ Styles For Inner Pages Ends
 }
 .footer::after {
 	content: "";
-    background: url('images/help/gallery9.jpg');
+    background: url('images/help/eventsbgbk.jpg');
     background-size:cover;
 	top: 0;
     left: 0;
@@ -2251,7 +2257,9 @@ Styles For Inner Pages Ends
 	display:none;
 }
 .gallery-container {
-	text-align:center; 
+	text-align:center;
+/*Newly Added*/		
+	margin-left: 55px;
 }
 .gallery-container a {
 	display:inline-block; 
@@ -2261,8 +2269,10 @@ Styles For Inner Pages Ends
 .gallery-container .gallery-thumb {
     width: 100%;
     padding: 5px;
-    
     margin: 0px !important;
+/*Newly Added*/	
+	width:335px; 
+	height:223.48px;
 }
 .upper-background {
 	display:none; 
