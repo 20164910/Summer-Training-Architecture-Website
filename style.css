@@ -210,6 +210,7 @@ General CSS Ends
 	margin:auto; 
 	width:90px;
 	margin-top:15px;
+	display: none;
 }
 .owl-nav .owl-prev, .owl-nav .owl-next {
 	display:block;
